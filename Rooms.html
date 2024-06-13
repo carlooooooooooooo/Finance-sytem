@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Listing</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f1011bd;
+            /* Fallback color if images fail to load */
+            height: 300vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .room-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .room-image {
+            max-height: 200px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ROOMS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+</header>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="room-container">
+                    <img src="room1.jpg" alt="Room 1" class="room-image">
+                    <h2 class="text-center">Luxury Room</h2>
+                    <p> Guests can expect luxurious touches such as fine linens, marble bathrooms, and state-of-the-art technology to enhance their comfort and convenience.</p>
+                    <p class="text-center">₱4,449 [8:00 PM - 9:00 AM] </p>
+                    <button class="btn btn-primary btn-block">View Details</button>
+                </div>
+            </div>
+            <!-- Repeat the above structure for other rooms -->
+            <div class="col-md-6">
+                <div class="room-container">
+                    <img src="room2.jpg" alt="Room 2" class="room-image">
+                    <h2 class="text-center">Family Room</h2>
+                    <p>Etiam pharetra erat sed fermentum feugiat velit mauris egestas quam, ut aliquam massa nist
+                        suspendisse in orci enim.</p>
+                    <p class="text-center">₱5,499 [8:00 PM - 9:00 AM]</p>
+                    <button class="btn btn-primary btn-block">View Details</button>
+                </div>
+            </div>
+        <div class="col-md-6">
+            <div class="room-container">
+                <img src="https://www.dharmagroup.it/hotel/dharma-luxury/data/1366/suite-sauna-01-dharma-luxury-hotel-2560.jpg" alt="Room 1" class="room-image">
+                <h2 class="text-center">Luxury Room</h2>
+                <p> Guests can expect luxurious touches such as fine linens, marble bathrooms, and state-of-the-art technology to enhance their comfort and convenience.</p>
+                <p class="text-center">₱6,500 [8:00 PM - 9:00 AM]</p>
+                <button class="btn btn-primary btn-block">View Details</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="room-container">
+                <img src="https://focus.independent.ie/thumbor/501JuQ4mUx2AQD4FnYXHl-5-FoA=/0x17:1700x954/960x640/prod-mh-ireland/0c86e7a0-aa0a-11ed-9c83-0210609a3fe2.jpeg" alt="Room 2" class="room-image">
+                <h2 class="text-center">Family Room</h2>
+                <p>They may include separate sleeping areas or partitioned spaces to provide privacy and flexibility for families.</p>
+                <p class="text-center">₱7,000 [8:00 PM - 9:00 AM]</p>
+                <button class="btn btn-primary btn-block">View Details</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="room-container">
+                <img src="https://media.tfehotels.com/media/filer_public/80/98/80986f6a-3af0-4cfe-9e18-f7af045e5995/adina-hotel-dusseldorf_studio2_07-2022.jpg" alt="Room 5" class="room-image">
+                <h2 class="text-center">Apartment Room</h2>
+                <p>They may include separate living, sleeping, dining, and kitchen areas, providing guests with ample space and flexibility during their stay.
+                </p>
+                <p class="text-center">₱7,500 [8:00 PM - 9:00 AM]</p>
+                <button class="btn btn-primary btn-block">View Details</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="room-container">
+                <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg" alt="Room 6" class="room-image">
+                <h2 class="text-center">Luxury Room</h2>
+                <p>Luxury hotel rooms are typically more spacious than standard rooms, providing ample space for relaxation and enjoyment.</p>
+                <p class="text-center">₱5,800 [8:00 PM - 9:00 AM]</p>
+                <button class="btn btn-primary btn-block">View Details</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
